@@ -18,7 +18,6 @@ body {
 }
 
 #hero{
-    /* border: 3px solid black; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -40,6 +39,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: var(--clr-container);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
 
 .avatar {
@@ -51,12 +51,10 @@ body {
 }
 
 .name {
-    /* border: 1px solid crimson; */
     color: var(--clr-text2);
 }
 
 .year {
-    /* border: 1px solid black; */
     margin: 5px;
     padding: 5px;
     border-radius: 10px;
@@ -65,7 +63,6 @@ body {
 }
 
 hr {
-    /* border: 1px solid crimson; */
     color: var(--clr-accent);
     width: 80%;
     opacity: 10%;
@@ -80,7 +77,6 @@ hr {
 }
 
 .item {
-    /* border: 2px solid crimson; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -90,7 +86,6 @@ hr {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* border: 1px solid violet; */
     justify-content: space-between;
     align-items: center;
     font-size: 20px;
@@ -101,7 +96,6 @@ hr {
 }
 
 .icon .one {
-    /* border: 2px solid red; */
     width: 35px;
     height: 35px;
     display: flex;
@@ -112,7 +106,6 @@ hr {
 .social {
     display: flex;
     justify-content: space-around;
-    /* border: 1px solid blue; */
     width: 100px;
     margin-top: 0px;
 }
@@ -131,16 +124,12 @@ hr {
     width: 900px;
     padding-bottom: 100px;
     margin-bottom: 20px;
-    /* display: flex;
-    flex-direction: column; */
     align-items: center;
     background-color: var(--clr-container);
-    /* margin: 20px 20px 10px 20px; */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
 
 .about {
-    /* border: 2px solid rgb(159, 14, 14); */
-    /* margin: 30px; */
     padding: 30px;
 }
 
@@ -154,26 +143,17 @@ hr {
 }
 
 .work {
-    /* border: 2px solid crimson; */
-    /* border-radius: 20px; */
-    /* margin: 5px; */
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex-direction: row;
-    height: 440px;
-    /* align-items: center; */
-    /* align-content: space-between; */
-    /* margin: 30px 0px 30px 30px; */
-    
+    height: 440px;    
 }
 
 .skills {
-    /* border: 2px solid rgb(135, 18, 18); */
     background-color: var(--clr-div);
     color: var(--clr-text);
     border-radius: 20px;
-    /* margin-bottom: 30px; */
     width: 405px;
     height: 190px;
     display: flex;
@@ -188,29 +168,23 @@ hr {
 }
 
 .two {
-    /* border: 1px solid red; */
     margin: 10px 0px 0px 10px;
     border-radius: 10px;
 }
 
 .main h1 {
-    /* border: 2px solid purple;  */
     width: 100%;
     color: var(--clr-wh_background);
-    /* margin-left: 5px; */
 }
 
 .link h2 {
-    /* border: 2px solid purple;  */
     width: 100%;
     color: var(--clr-text);
-    /* margin-left: 5px; */
 }
 
 .links {
     display: flex;
     flex-direction: row;
-    /* border: 1px solid red; */
     justify-content: space-between;
     height: 340px;
 }
