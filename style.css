@@ -188,6 +188,7 @@ hr {
 }
 
 .work {
+    border: 1px solid red;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -196,6 +197,7 @@ hr {
 }
 
 .skills {
+    border: 1px solid;
     background-color: var(--clr-div);
     color: var(--clr-text);
     border-radius: 20px;
@@ -283,24 +285,19 @@ hr, i {
     }
     .container {
         display: flex;
-        transition: width 0.4s ease ;
     }
 }
 
 @media screen and (max-width: 960px) {
-    /* .work {
-        height: 35%;    
-    } */
-    .main {
-        height: 1300px;
-    }
-}
-
-@media screen and (max-width: 760px) {
     .work {
-        height: 45%;    
+        height: auto;    
     }
     .main {
-        height: 1700px;
+        height: auto;
+    }
+    .skills {
+        width: 80%;
+        height: 45%;
+        margin-bottom: 20px;
     }
 }
