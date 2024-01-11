@@ -264,9 +264,15 @@ hr {
 }
 
 .testi {
+    display: flex;
+    flex-direction: column;
     padding: 3%;
     justify-content: space-evenly;
     height: 100%;
+}
+.testhead {
+    /* border: 1px solid red; */
+    width: 100%;
 }
 
 hr, i {
@@ -299,11 +305,29 @@ hr, i {
         height: auto;    
     }
     .main {
-        height: auto;
+        height :auto;
+        padding-bottom: 30px;
     }
     .skills {
         width: 80%;
         height: 45%;
         margin-bottom: 20px;
+    }
+    .testi {
+        flex-direction: column;
+    }
+    .links {
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 100%;
+        /* border: 1px solid red; */
+    }
+    .link {
+        width: 100%;
+        padding-bottom: 30px;
+        margin: 30px;
+    }
+    .yt {
+        height: 150%;
     }
 }
