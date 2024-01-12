@@ -330,4 +330,13 @@ hr, i {
     .yt {
         height: 150%;
     }
+    .image {
+        display: flex;
+        justify-content: center;
+    }
+    .img {
+        height: 100%;
+        width: 80%;
+        border: 1px solid blue;
+    }
 }
