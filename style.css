@@ -339,3 +339,8 @@ hr, i {
         width: 80%;
     }
 }
+@media screen and (max-width: 600px) {
+    #hero {
+        padding:30px 5px;
+    }
+}
