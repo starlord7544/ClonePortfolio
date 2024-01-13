@@ -337,6 +337,7 @@ hr, i {
     .img {
         height: 100%;
         width: 80%;
+        margin-bottom: 30px;
     }
 }
 @media screen and (max-width: 600px) {
