@@ -8,7 +8,10 @@
     --clr-grey: #A1A6AA;
     --clr-wh_background: #FFF7EC;
     --clr-text2: #dbe1e6;
+}
 
+* {
+    transition: all 0.3s ease-in-out;
 }
 
 body {
