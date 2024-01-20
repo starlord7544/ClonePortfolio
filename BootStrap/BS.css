@@ -1,0 +1,256 @@
+:root {
+    --clr-background: #172936;
+    --clr-container: #253644;
+    --clr-div: #172937;
+    --clr-accent: #F06F21;
+    --clr-border: #f070211a;
+    --clr-text: #e3e5e7;
+    --clr-grey: #A1A6AA;
+    --clr-wh_background: #FFF7EC;
+    --clr-text2: #dbe1e6;
+
+}
+
+::selection {
+    background-color: var(--clr-accent);
+    color: var(--clr-background);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--clr-div);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--clr-container);
+    border: 1px solid var(--clr-border);
+    border-radius: 10px;
+}
+
+* {
+    transition: all 0.3s ease-in-out;
+}
+
+.bod {
+    background-color: var(--clr-background);
+    padding: 0px 4%;
+}
+
+
+.sidebar {
+    border: 1px solid var(--clr-border);
+    background-color: var(--clr-container);
+    top: 75px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    display: flex;
+}
+
+.sidebar .avatar {
+    background-color: var(--clr-wh_background);
+}
+
+.name {
+    color: var(--clr-text2);
+}
+
+.year {
+    background-color: var(--clr-div);
+    color: var(--clr-text);
+    font-size: 0.9rem;
+}
+
+.hr {
+    color: var(--clr-accent);
+    width: 80%;
+    opacity: 10%;
+}
+
+.info p{
+    color: var(--clr-text);
+    font-size: 0.9rem;
+}
+
+.info .head {
+    color: var(--clr-grey);
+}
+
+.icon {
+    background-color: var(--clr-div);
+}
+
+.icon .one {
+    color: var(--clr-accent);
+    width: 35px;
+    height: 35px;
+    font-size: 1.2rem;
+}
+
+.social {
+    display: flex;
+}
+
+.website {
+    color: var(--clr-grey);
+    background-color: var(--clr-container);
+}
+
+.main {
+    background-color: var(--clr-container);
+    border: 1px solid var(--clr-border);
+    margin-top: 75px;
+    top: 75px;
+    width: 900px;
+    margin-bottom: 50px;
+}
+
+.about .bio {
+    color: var(--clr-text2);
+}
+
+.work {
+    height: 35%;
+}
+
+.skills {
+    background-color: var(--clr-background);
+    color: var(--clr-text);
+    width: 45%;
+    height: 45%;
+    font-size: 0.9rem;
+}
+
+.right h2 {
+    font-size: 1.5rem;
+}
+
+.skills .two {
+    color: var(--clr-accent);
+}
+
+.main h1 {
+    color: var(--clr-wh_background);
+    font-size: 2rem;
+}
+
+.link h2 {
+    color: var(--clr-text);
+}
+
+.links {
+    height: 300px;
+}
+
+.link {
+    width: 48%;
+    border-radius: 20px;
+    padding: 0px 3%;
+    background-color: var(--clr-div);
+}
+
+#line {
+    width: 40px;
+    height: 5px;
+    border-radius: 10px;
+    margin: 20px 100% 20px 0px;
+    color: var(--clr-accent);
+    background-color: var(--clr-accent);
+    opacity: 100%;
+    border: 0px;
+}
+
+.container {
+
+    display: none;
+}
+.topbar {
+    border: 1px solid var(--clr-border);
+    background-color: var(--clr-container);
+    width: 900px;
+    margin-top: 30px;
+
+}
+
+.topbar .avatar {
+    width: 120px;      
+    height: 120px;     
+    background-color: var(--clr-wh_background);
+}
+
+.bottom .name {
+    width: 60vw;
+}
+
+.bottom .year {
+    width: 200px;
+}
+
+.bottom h1 {
+    font-size: 2rem;
+}
+.lowres {
+    display: none;
+}
+
+@media screen and (max-width: 1260px) {
+    .sidebar {
+        display: none;
+    }
+    .container {
+        display: flex;
+    }
+} 
+@media screen and (max-width: 1010px) {
+    .work {
+        height: auto;    
+    }
+    .main {
+        height :auto;
+        padding-bottom: 30px;
+    }
+
+    .skills {
+        width: 100%;
+        height: 20vh;
+        margin-bottom: 20px;
+        padding-bottom: 150px;
+    }
+    .testi {
+        flex-direction: column;
+    }
+    .links {
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .link {
+        width: 100%;
+        padding-bottom: 30px;
+        margin: 30px;
+    }
+    .yt {
+        height: 150%;
+    }
+    .image {
+        display: flex;
+        justify-content: center;
+    }
+    .img {
+        height: 100%;
+        width: 80%;
+        margin-bottom: 30px;   
+    }
+}
+@media screen and (max-width: 670px) {
+    .lowres {
+        display: flex;
+        color: var(--clr-text);
+        height: 300px;
+    }
+    .container , .main {
+        display: none;
+    }
+} 
